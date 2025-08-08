@@ -3,7 +3,6 @@ import { Metadata } from 'next';
 import ServicesHero from '@/components/services/ServicesHero';
 import ServiceCard from '@/components/services/ServiceCard';
 import CallToActionSection from '@/components/services/CallToActionSection';
-import ImpactShowcase from '@/components/services/ImpactShowcase';
 import FadeInOnLoad from '@/components/animations/FadeInOnLoad';
 import { Navbar } from '@/components';
 import Footer from '@/components/Footer';
@@ -133,9 +132,6 @@ export default function Services() {
       </FadeInOnLoad>
 
       <FadeInOnLoad delay={300}>
-        <ImpactShowcase />
-      </FadeInOnLoad>
-      <FadeInOnLoad delay={400}>
         <CallToActionSection />
       </FadeInOnLoad>
       <Footer/>

@@ -137,8 +137,11 @@ export default function Partners() {
               <span className="text-sm font-medium">Strategic Partnerships</span>
             </div>
             
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-              Our Partner
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-white">
+              <span className='text-white'>
+                Our Partner
+              </span>
+              
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-400">
                 Network
               </span>
@@ -173,7 +176,7 @@ export default function Partners() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                   </svg>
                 </div>
-                <div className="text-4xl font-bold text-blue-600 mb-2">50+</div>
+                <div className="text-4xl font-bold text-blue-600 mb-2">3+</div>
                 <p className="text-gray-700 font-medium">Strategic Partners</p>
               </div>
             </div>
@@ -185,7 +188,7 @@ export default function Partners() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
-                <div className="text-4xl font-bold text-green-600 mb-2">32</div>
+                <div className="text-4xl font-bold text-green-600 mb-2">2</div>
                 <p className="text-gray-700 font-medium">Countries Reached</p>
               </div>
             </div>
@@ -197,7 +200,7 @@ export default function Partners() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
-                <div className="text-4xl font-bold text-purple-600 mb-2">$3.2B</div>
+                <div className="text-4xl font-bold text-purple-600 mb-2">$</div>
                 <p className="text-gray-700 font-medium">Funding Mobilized</p>
               </div>
             </div>
@@ -209,7 +212,7 @@ export default function Partners() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
                   </svg>
                 </div>
-                <div className="text-4xl font-bold text-orange-600 mb-2">1,250+</div>
+                <div className="text-4xl font-bold text-orange-600 mb-2">+</div>
                 <p className="text-gray-700 font-medium">Projects Delivered</p>
               </div>
             </div>

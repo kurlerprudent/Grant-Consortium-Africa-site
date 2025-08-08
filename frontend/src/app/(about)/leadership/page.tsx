@@ -43,7 +43,12 @@ export default function Leadership() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
           <div className="max-w-6xl mx-auto px-6">
             <div className="text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Leadership Team</h1>
+              <h1 className="text-4xl md:text-5xl text-yellow-400 font-bold mb-6">
+                <span className='text-yellow-400'>
+                    Our Leadership Team
+                </span>
+                
+                </h1>
               <p className="text-xl text-blue-100 max-w-3xl mx-auto">
                 Meet the seasoned professionals driving Grant Consortium Africa&apos;s operations and strategic direction, with expertise in project management, international development, and public sector governance.
               </p>
