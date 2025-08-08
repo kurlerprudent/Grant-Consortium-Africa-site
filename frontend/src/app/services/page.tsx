@@ -1,4 +1,5 @@
 import React from 'react';
+import { Metadata } from 'next';
 import ServicesHero from '@/components/services/ServicesHero';
 import ServiceCard from '@/components/services/ServiceCard';
 import StatsSection from '@/components/services/StatsSection';
@@ -7,6 +8,17 @@ import ImpactShowcase from '@/components/services/ImpactShowcase';
 import FadeInOnLoad from '@/components/animations/FadeInOnLoad';
 import { Navbar } from '@/components';
 import Footer from '@/components/Footer';
+
+export const metadata: Metadata = {
+  title: 'Our Services | Grant Consortium Africa',
+  description: 'Comprehensive grant application support, capacity building, project management, and partnership development services across Africa. Expert assistance from application to project completion.',
+  keywords: ['grant services', 'African development services', 'project management', 'capacity building', 'grant applications', 'monitoring evaluation'],
+  openGraph: {
+    title: 'Our Services | Grant Consortium Africa',
+    description: 'Expert grant and development services across Africa',
+    type: 'website',
+  },
+};
 
 const services = [
   {

@@ -1,9 +1,21 @@
 import React from 'react';
+import { Metadata } from 'next';
 import Image from 'next/image';
 import FocusAreaCard from '@/components/services/FocusAreaCard';
 import FadeInOnLoad from '@/components/animations/FadeInOnLoad';
 import { Navbar } from '@/components';
 import Footer from '@/components/Footer';
+
+export const metadata: Metadata = {
+  title: 'Focus Areas | Grant Consortium Africa',
+  description: 'Discover our key focus areas: Education, Healthcare, Agriculture, Environmental Conservation, Community Development, and Technology & Innovation across Africa.',
+  keywords: ['African development focus areas', 'education grants', 'healthcare development', 'agriculture innovation', 'environmental conservation', 'community development'],
+  openGraph: {
+    title: 'Focus Areas | Grant Consortium Africa',
+    description: 'Key development focus areas across Africa',
+    type: 'website',
+  },
+};
 
 const focusAreas = [
   {

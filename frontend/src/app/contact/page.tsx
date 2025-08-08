@@ -1,4 +1,5 @@
 import React from 'react';
+import { Metadata } from 'next';
 import Link from 'next/link';
 import ContactHero from '@/components/contact/ContactHero';
 import ContactForm from '@/components/contact/ContactForm';
@@ -7,6 +8,17 @@ import ContactMap from '@/components/contact/ContactMap';
 import { Navbar } from '@/components';
 import Footer from '@/components/Footer';
 import FadeInOnLoad from '@/components/animations/FadeInOnLoad';
+
+export const metadata: Metadata = {
+  title: 'Contact Us | Grant Consortium Africa',
+  description: 'Get in touch with Grant Consortium Africa. Apply for grants, request consultations, or learn more about our development programs across Africa.',
+  keywords: ['contact Grant Consortium Africa', 'apply for grants', 'development consultation', 'African development contact'],
+  openGraph: {
+    title: 'Contact Us | Grant Consortium Africa',
+    description: 'Get in touch for grants and development support',
+    type: 'website',
+  },
+};
 
 export default function Contact() {
   return (
