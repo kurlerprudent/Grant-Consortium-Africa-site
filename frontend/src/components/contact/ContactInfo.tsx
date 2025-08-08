@@ -38,8 +38,10 @@ const ContactInfo: React.FC = () => {
           <div className="flex-1">
             <h3 className="text-lg font-semibold text-gray-900 mb-2 font-display">Phone Numbers</h3>
             <div className="space-y-1 font-body text-gray-600">
-              <p>Main Office: <a href="tel:+233247710113" className="hover:text-blue-600 transition-colors">+233 247 710 113</a></p>
-              <p>WhatsApp: <a href="https://wa.me/233247710113" className="hover:text-green-600 transition-colors">+233 247 710 113</a></p>
+              
+              <p><a href="https://wa.me/233247710113" className="hover:text-green-600 transition-colors">+233 247 710 113</a></p>
+              <p><a href="https://wa.me/233247710113" className="hover:text-green-600 transition-colors">+233 24 6617 273</a></p>
+              <p><a href="https://wa.me/233247710113" className="hover:text-green-600 transition-colors">+233 26 4530 270</a></p>
             </div>
           </div>
         </div>
@@ -118,17 +120,6 @@ const ContactInfo: React.FC = () => {
             </div>
           </div>
         </div>
-      </div>
-
-      {/* Additional Services Notice */}
-      <div className="mt-8 p-6 bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl text-white">
-        <h3 className="text-lg font-semibold mb-2 font-display">Ready to Get Started?</h3>
-        <p className="text-blue-100 font-body mb-4">
-          Schedule a free consultation to discuss your grant funding needs and explore how we can help you achieve your goals.
-        </p>
-        <button className="bg-white text-blue-600 px-6 py-2 rounded-full font-semibold hover:bg-blue-50 transition-colors font-body">
-          Schedule Consultation
-        </button>
       </div>
     </div>
   );
