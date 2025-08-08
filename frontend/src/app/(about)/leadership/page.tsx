@@ -21,16 +21,16 @@ export default function Leadership() {
       role: 'Director of Strategy & Innovation',
       bio: 'Experienced in program design, results-based financing, and institutional partnerships. Ernest drives innovative approaches to grant acquisition and strategic partnerships across the continent.',
       education: 'Specialist in program design, results-based financing, and institutional partnerships',
-      image: '/ernerst-owusu-ansah.jpg',
-      hasImage: true
+      image: null,
+      hasImage: false
     },
     {
       name: 'Eric Kojo Srem',
       role: 'Director of Grant Management & Monitoring',
       bio: 'Specialist in grants administration, project monitoring, and financial compliance under bilateral and multilateral funding mechanisms. Eric ensures all funded projects meet the highest standards of accountability.',
       education: 'Specialist in grants administration, project monitoring, and financial compliance',
-      image: '/eric-kojo-srem.jpg',
-      hasImage: true
+      image: null,
+      hasImage: false
     }
   ];
 

@@ -98,23 +98,19 @@ export default function FocusAreas() {
       <Navbar/>
       {/* Hero Section */}
       <FadeInOnLoad delay={100}>
-        <section className="relative min-h-[60vh] bg-gradient-to-br from-blue-900 via-purple-900 to-green-900 overflow-hidden">
+        <section className="relative min-h-[60vh] bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800">
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
             src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80"
             alt="Focus Areas Background"
             fill
-            className="object-cover opacity-20"
+            className="object-cover opacity-10"
           />
         </div>
 
-        {/* Animated Background Elements */}
-        <div className="absolute inset-0">
-          <div className="absolute top-20 left-20 w-32 h-32 bg-blue-400 rounded-full opacity-10 animate-pulse"></div>
-          <div className="absolute bottom-32 right-32 w-24 h-24 bg-green-400 rounded-full opacity-10 animate-bounce delay-75"></div>
-          <div className="absolute top-1/2 left-1/3 w-40 h-40 bg-purple-400 rounded-full opacity-5 animate-pulse delay-150"></div>
-        </div>
+        {/* Simple Overlay */}
+        <div className="absolute inset-0 bg-black/40"></div>
 
         {/* Content */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
@@ -128,9 +124,9 @@ export default function FocusAreas() {
             </div>
 
             <h1 className="text-5xl lg:text-6xl font-bold text-white mb-6 font-display">
-              Our Focus
-              <span className="block bg-gradient-to-r from-yellow-400 via-orange-400 to-red-400 bg-clip-text text-transparent">
-                Areas
+              
+              <span className="block text-yellow-400">
+              Our Focus  Areas
               </span>
             </h1>
 
@@ -175,7 +171,6 @@ export default function FocusAreas() {
                 title={area.title}
                 description={area.description}
                 image={area.image}
-                stats={area.stats}
                 features={area.features}
               />
             ))}

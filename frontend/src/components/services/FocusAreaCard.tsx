@@ -5,7 +5,6 @@ interface FocusAreaCardProps {
   title: string;
   description: string;
   image: string;
-  stats: string;
   features: string[];
 }
 
@@ -13,7 +12,6 @@ const FocusAreaCard: React.FC<FocusAreaCardProps> = ({
   title,
   description,
   image,
-  stats,
   features
 }) => {
   return (
@@ -27,13 +25,6 @@ const FocusAreaCard: React.FC<FocusAreaCardProps> = ({
           className="object-cover transition-transform duration-500 group-hover:scale-105"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
-        
-        {/* Stats Badge */}
-        <div className="absolute top-4 right-4">
-          <div className="bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-sm font-semibold text-gray-900 font-body">
-            {stats}
-          </div>
-        </div>
       </div>
 
       {/* Content */}

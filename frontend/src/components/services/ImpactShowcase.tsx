@@ -5,23 +5,20 @@ const ImpactShowcase: React.FC = () => {
   const impactStories = [
     {
       title: 'Education for All Initiative',
-      description: 'Secured $2.5M funding to build 15 schools in rural Ghana, providing quality education to over 3,000 children.',
+      description: 'Secured funding to build schools in rural Ghana, providing quality education to children.',
       image: 'https://images.unsplash.com/photo-1497486751825-1233686d5d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      impact: '3,000+ Students',
       category: 'Education'
     },
     {
       title: 'Healthcare Access Program',
-      description: 'Enabled a network of community health centers to receive $1.8M for medical equipment and training.',
+      description: 'Enabled a network of community health centers to receive funding for medical equipment and training.',
       image: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80',
-      impact: '25 Health Centers',
       category: 'Healthcare'
     },
     {
       title: 'Sustainable Agriculture Project',
-      description: 'Helped farming cooperatives secure $3.2M for modern irrigation systems and training programs.',
+      description: 'Helped farming cooperatives secure funding for modern irrigation systems and training programs.',
       image: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2089&q=80',
-      impact: '500+ Farmers',
       category: 'Agriculture'
     }
   ];
@@ -57,13 +54,6 @@ const ImpactShowcase: React.FC = () => {
                   <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-semibold font-body">
                     {story.category}
                   </span>
-                </div>
-
-                {/* Impact Badge */}
-                <div className="absolute bottom-4 right-4">
-                  <div className="bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-sm font-bold text-gray-900 font-body">
-                    {story.impact}
-                  </div>
                 </div>
               </div>
 

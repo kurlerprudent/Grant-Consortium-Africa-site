@@ -17,8 +17,11 @@ const HeroSection: React.FC = () => {
         </div>
 
         {/* Title from GCA.md */}
-        <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-          Unlocking Global Opportunities
+        <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight text-white">
+          <span className='text-white'>
+              Unlocking Global Opportunities
+          </span>
+          
           <span className="block text-yellow-400">for African Development</span>
         </h1>
 
@@ -35,22 +38,6 @@ const HeroSection: React.FC = () => {
           <Link href="/contact" className="px-8 py-4 border-2 border-white text-white hover:bg-white hover:text-gray-900 font-semibold rounded-lg transition-all duration-300 inline-block text-center">
             Contact Us
           </Link>
-        </div>
-
-        {/* Simple Stats */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 max-w-4xl mx-auto">
-          <div className="text-center">
-            <div className="text-3xl font-bold text-yellow-400 mb-2">500+</div>
-            <div className="text-sm text-gray-300">Projects Funded</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl font-bold text-yellow-400 mb-2">25</div>
-            <div className="text-sm text-gray-300">Countries Served</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl font-bold text-yellow-400 mb-2">1M+</div>
-            <div className="text-sm text-gray-300">Lives Impacted</div>
-          </div>
         </div>
       </div>
     </section>

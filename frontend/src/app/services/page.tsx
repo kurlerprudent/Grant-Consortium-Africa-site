@@ -2,7 +2,6 @@ import React from 'react';
 import { Metadata } from 'next';
 import ServicesHero from '@/components/services/ServicesHero';
 import ServiceCard from '@/components/services/ServiceCard';
-import StatsSection from '@/components/services/StatsSection';
 import CallToActionSection from '@/components/services/CallToActionSection';
 import ImpactShowcase from '@/components/services/ImpactShowcase';
 import FadeInOnLoad from '@/components/animations/FadeInOnLoad';
@@ -134,12 +133,9 @@ export default function Services() {
       </FadeInOnLoad>
 
       <FadeInOnLoad delay={300}>
-        <StatsSection />
-      </FadeInOnLoad>
-      <FadeInOnLoad delay={400}>
         <ImpactShowcase />
       </FadeInOnLoad>
-      <FadeInOnLoad delay={500}>
+      <FadeInOnLoad delay={400}>
         <CallToActionSection />
       </FadeInOnLoad>
       <Footer/>

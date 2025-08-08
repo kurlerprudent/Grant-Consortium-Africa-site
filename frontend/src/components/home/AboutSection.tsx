@@ -31,11 +31,11 @@ const AboutSection: React.FC = () => {
 
             <div className="grid grid-cols-2 gap-6">
               <div className="text-center p-4 bg-gray-50 rounded-lg">
-                <div className="text-2xl font-bold text-blue-600">500+</div>
+                <div className="text-2xl font-bold text-blue-600"></div>
                 <div className="text-sm text-gray-600">Projects Funded</div>
               </div>
               <div className="text-center p-4 bg-gray-50 rounded-lg">
-                <div className="text-2xl font-bold text-blue-600">25</div>
+                <div className="text-2xl font-bold text-blue-600"></div>
                 <div className="text-sm text-gray-600">Countries Reached</div>
               </div>
             </div>
