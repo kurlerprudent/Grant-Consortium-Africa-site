@@ -23,15 +23,7 @@ const ContactInfo: React.FC = () => {
               </svg>
             </div>
           </div>
-          <div className="flex-1">
-            <h3 className="text-lg font-semibold text-gray-900 mb-2 font-display">Office Address</h3>
-            <p className="text-gray-600 font-body">
-              Grant Consortium Africa<br />
-              123 Liberation Road<br />
-              Accra, Ghana<br />
-              P.O. Box 12345
-            </p>
-          </div>
+          
         </div>
 
         {/* Phone Numbers */}
@@ -46,9 +38,8 @@ const ContactInfo: React.FC = () => {
           <div className="flex-1">
             <h3 className="text-lg font-semibold text-gray-900 mb-2 font-display">Phone Numbers</h3>
             <div className="space-y-1 font-body text-gray-600">
-              <p>Main Office: <a href="tel:+233123456789" className="hover:text-blue-600 transition-colors">+233 123 456 789</a></p>
-              <p>WhatsApp: <a href="https://wa.me/233123456789" className="hover:text-green-600 transition-colors">+233 123 456 789</a></p>
-              <p>Emergency: <a href="tel:+233987654321" className="hover:text-red-600 transition-colors">+233 987 654 321</a></p>
+              <p>Main Office: <a href="tel:+233247710113" className="hover:text-blue-600 transition-colors">+233 247 710 113</a></p>
+              <p>WhatsApp: <a href="https://wa.me/233247710113" className="hover:text-green-600 transition-colors">+233 247 710 113</a></p>
             </div>
           </div>
         </div>
@@ -66,9 +57,7 @@ const ContactInfo: React.FC = () => {
             <h3 className="text-lg font-semibold text-gray-900 mb-2 font-display">Email Addresses</h3>
             <div className="space-y-1 font-body text-gray-600">
               <p>General Inquiries: <a href="mailto:info@grantconsortiumafrica.org" className="hover:text-blue-600 transition-colors">info@grantconsortiumafrica.org</a></p>
-              <p>Grant Applications: <a href="mailto:grants@grantconsortiumafrica.org" className="hover:text-blue-600 transition-colors">grants@grantconsortiumafrica.org</a></p>
-              <p>Partnerships: <a href="mailto:partnerships@grantconsortiumafrica.org" className="hover:text-blue-600 transition-colors">partnerships@grantconsortiumafrica.org</a></p>
-              <p>Training Programs: <a href="mailto:training@grantconsortiumafrica.org" className="hover:text-blue-600 transition-colors">training@grantconsortiumafrica.org</a></p>
+              
             </div>
           </div>
         </div>
@@ -85,7 +74,7 @@ const ContactInfo: React.FC = () => {
           <div className="flex-1">
             <h3 className="text-lg font-semibold text-gray-900 mb-2 font-display">Business Hours</h3>
             <div className="space-y-1 font-body text-gray-600">
-              <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
+              <p>Monday - Friday: 8:00 AM - 4:00 PM</p>
               <p>Saturday: 9:00 AM - 2:00 PM</p>
               <p>Sunday: Closed</p>
               <p className="text-sm text-blue-600 mt-2">Emergency support available 24/7</p>

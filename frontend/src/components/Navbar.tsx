@@ -111,11 +111,11 @@ const Navbar: React.FC = () => {
                 Grant Consortium Africa
               </span>
             </div>
-            <div className="block sm:hidden">
+            {/* <div className="block sm:hidden">
               <span className="text-gray-900 font-heading font-bold text-lg group-hover:text-primary transition-colors duration-300">
                 GCA
               </span>
-            </div>
+            </div> */}
           </Link>
 
           {/* Desktop Navigation */}

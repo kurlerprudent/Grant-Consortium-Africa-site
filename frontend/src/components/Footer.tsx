@@ -38,7 +38,11 @@ const Footer: React.FC = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <FaPhone className="text-yellow-400 w-5 h-5" />
-                <span className="text-gray-300">+233 (0) 123 456 789</span>
+                <div className="flex flex-col space-y-1">
+                  <span className="text-gray-300">+233 247 710 113</span>
+                  <span className="text-gray-300">+233 246 617 273</span>
+                  <span className="text-gray-300">+233 264 530 270</span>
+                </div>
               </div>
               <div className="flex items-center space-x-3">
                 <FaMapMarkerAlt className="text-yellow-400 w-5 h-5" />
@@ -49,7 +53,11 @@ const Footer: React.FC = () => {
 
           {/* Quick Links */}
           <div className="space-y-6">
-            <h4 className="text-xl font-semibold text-white">Quick Links</h4>
+            <h4 className="text-xl font-semibold text-white">
+              <span className='text-white'>
+                Our Quick Links
+                </span>
+              </h4>
             <ul className="space-y-3">
               <li><Link href="/" className="text-gray-300 hover:text-yellow-400 transition-colors">Home</Link></li>
               <li><Link href="/leadership" className="text-gray-300 hover:text-yellow-400 transition-colors">About Us</Link></li>

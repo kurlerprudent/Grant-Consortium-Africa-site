@@ -162,3 +162,67 @@ Contact info (digital address, phone, email)
 Social links (if available)
 
 
+
+Here are the details from the image, clearly written out:
+
+
+---
+
+COMPANY NAME:
+Grant Consortium Africa (GCA)
+
+
+---
+
+COMPANY ACTIVITIES:
+Grant identification and acquisition, capacity building, technical support and advisory services, regional collaboration, and transparency & accountability.
+
+
+---
+
+DIGITAL ADDRESS:
+GA-049-6007
+
+HOUSE NUMBER:
+C/146/3 Eseef0 Street, Asylum Down
+
+LANDMARK:
+Latter Day Saint Church, Asylum Down Assembly
+
+AREA NAME:
+Eseef0 Street
+
+CITY:
+Accra
+
+REGION:
+Greater Accra
+
+
+---
+
+POSTAL ADDRESS:
+10 Stephen Close, Dansoman, Accra
+
+TOWN:
+Asylum Down
+
+TELEPHONE NUMBER:
+0247710113 / 0246617273 / 0264530270
+
+EMAIL ADDRESS:
+
+erikussremsai@gmail.com
+
+awaygas21@yahoo.com
+
+atta_29williams@yahoo.com
+
+
+
+---
+
+Let me know if you'd like this formatted into a document or flyer.
+
+
+

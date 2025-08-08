@@ -52,7 +52,7 @@ const ContactHero: React.FC = () => {
                 </svg>
               </div>
               <h3 className="text-white font-bold text-lg mb-2 font-display">Call Us</h3>
-              <p className="text-blue-200 font-body">+233 123 456 789</p>
+              <p className="text-blue-200 font-body">+233 247 710 113</p>
             </div>
 
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-center">
@@ -62,7 +62,7 @@ const ContactHero: React.FC = () => {
                 </svg>
               </div>
               <h3 className="text-white font-bold text-lg mb-2 font-display">Email Us</h3>
-              <p className="text-blue-200 font-body">info@gca.org</p>
+              <p className="text-blue-200 font-body">info@grantconsortiumafrica.org</p>
             </div>
 
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-center">
