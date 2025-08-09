@@ -9,7 +9,7 @@ import FadeInOnLoad from '@/components/animations/FadeInOnLoad';
 export default function Leadership() {
   const leaders = [
     {
-      name: 'Attah Williams',
+      name: 'Atta Williams',
       role: 'Executive Director',
       bio: 'Expert in donor engagement, public policy, and international cooperation. Attah leads Grant Consortium Africa&apos;s strategic direction and oversees all operations to ensure maximum impact across Africa.',
       education: 'Expert in donor engagement, public policy, and international cooperation',
