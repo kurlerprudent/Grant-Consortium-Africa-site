@@ -55,6 +55,8 @@ const ContactHero: React.FC = () => {
               <p className="text-blue-200 font-body">+233 247 710 113</p>
             </div>
 
+             
+
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-center">
               <div className="w-12 h-12 mx-auto mb-4 bg-blue-500 rounded-full flex items-center justify-center">
                 <svg className="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -65,6 +67,17 @@ const ContactHero: React.FC = () => {
               <p className="text-blue-200 font-body">info@grantconsortiumafrica.org</p>
             </div>
 
+             {/* WhatsApp Card */}
+              <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-center">
+                <div className="w-12 h-12 mx-auto mb-4 bg-green-600 rounded-full flex items-center justify-center">
+                  <svg className="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path d="M16.403 13.603c-.278-.139-1.637-.808-1.89-.9-.253-.093-.437-.139-.622.139-.185.278-.715.9-.877 1.085-.162.185-.324.208-.602.069-.278-.139-1.175-.433-2.238-1.38-.827-.736-1.386-1.644-1.549-1.922-.162-.278-.017-.428.122-.567.125-.124.278-.324.417-.486.139-.162.185-.278.278-.463.093-.185.046-.347-.023-.486-.069-.139-.622-1.503-.853-2.057-.224-.539-.451-.465-.622-.474l-.53-.009c-.185 0-.486.069-.74.324-.254.254-.97.949-.97 2.312 0 1.363.993 2.683 1.131 2.87.139.185 1.953 2.988 4.74 4.067.663.286 1.18.457 1.584.585.665.212 1.27.182 1.747.11.533-.08 1.637-.669 1.87-1.316.232-.647.232-1.202.162-1.316-.069-.115-.254-.185-.532-.324z" />
+                  </svg>
+                </div>
+                <h3 className="text-white font-bold text-lg mb-2 font-display">WhatsApp</h3>
+                <a href="https://wa.me/233247710113" target="_blank" rel="noopener noreferrer" className="text-blue-200 font-body underline">Chat on WhatsApp</a>
+              </div>
+
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-center">
               <div className="w-12 h-12 mx-auto mb-4 bg-purple-500 rounded-full flex items-center justify-center">
                 <svg className="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -73,7 +86,7 @@ const ContactHero: React.FC = () => {
                 </svg>
               </div>
               <h3 className="text-white font-bold text-lg mb-2 font-display">Visit Us</h3>
-              <p className="text-blue-200 font-body">Accra, Ghana</p>
+              <p className="text-blue-200 font-body">Asylum Down, Accra Ghana</p>
             </div>
           </div>
         </div>
